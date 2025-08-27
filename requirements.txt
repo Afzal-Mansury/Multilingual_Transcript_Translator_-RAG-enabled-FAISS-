@@ -1,0 +1,36 @@
+# langchain-openai
+# langchain
+# python-dotenv
+# langchain_community
+# langchain_core
+# streamlit
+# srt
+
+# # Add explicit version pins
+# openai>=1.100,<1.102
+# pydantic<2.10
+
+# Core LangChain + OpenAI
+langchain>=0.2.11,<0.3
+langchain-openai>=0.1.17,<0.2
+langchain-community>=0.2.11,<0.3
+langchain-core>=0.2.11,<0.3
+
+# Environment
+python-dotenv>=1.0,<2
+
+# Streamlit UI
+streamlit>=1.36,<2
+
+# Subtitle parsing
+srt>=3.5,<4
+
+# OpenAI client (needs latest for gpt-4o, gpt-4.1-mini, etc.)
+openai>=1.101,<1.102
+
+# Pydantic (must be >=2.10 for new OpenAI SDK)
+pydantic>=2.10,<3
+
+faiss-cpu
+
+
